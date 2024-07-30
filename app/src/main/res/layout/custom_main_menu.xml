@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/soft_black">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/forward_btn_main_menu"
+            android:padding="10dp"
+            android:background="@drawable/ripple_effect"
+            android:src="@drawable/arrow_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/bookmark_btn_main_menu"
+            android:padding="10dp"
+            android:background="@drawable/ripple_effect"
+            android:src="@drawable/bookmark_initial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/downloads_btn_main_menu"
+            android:padding="10dp"
+            android:background="@drawable/ripple_effect"
+            android:src="@drawable/download_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/info_btn_main_menu"
+            android:padding="10dp"
+            android:background="@drawable/ripple_effect"
+            android:src="@drawable/info_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/reload_btn_main_menu"
+            android:padding="10dp"
+            android:background="@drawable/ripple_effect"
+            android:src="@drawable/refresh_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/new_tab_btn_main_menu"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/ripple_effect"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:drawablePadding="10dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="New Tab"
+        android:drawableStart="@drawable/new_tab_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/history_text_btn_main_menu"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/ripple_effect"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:drawablePadding="10dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="History"
+        android:drawableStart="@drawable/history_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/bookmarks_text_btn_main_menu"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/ripple_effect"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:drawablePadding="10dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Bookmarks"
+        android:drawableStart="@drawable/bookmark_final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/settings_text_btn_main_menu"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/ripple_effect"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:drawablePadding="10dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Settings"
+        android:drawableStart="@drawable/settings_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/desktop_text_btn_main_menu"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/ripple_effect"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:drawablePadding="10dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Desktop Site"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:drawableStartCompat="@drawable/empty_check_box" />
+
+    <TextView
+        android:id="@+id/print_text_btn_main_menu"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/ripple_effect"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:drawablePadding="10dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Print Page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:drawableStartCompat="@drawable/print_icon" />
+
+
+
+
+
+</LinearLayout>

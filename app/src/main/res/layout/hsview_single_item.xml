@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/ripple_effect"
+            android:id="@+id/hsview_single_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Web Page Title"
+            android:textSize="15sp" />
+
+        <TextView
+
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/ripple_effect"
+            android:id="@+id/hsview_single_item_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Web Page Title"
+            android:textSize="10sp" />
+
+
+        <TextView
+
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/ripple_effect"
+            android:id="@+id/hsview_single_item_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Web Page Title"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/hsview_single_item_remove_btn"
+        android:padding="5dp"
+        android:background="@drawable/ripple_effect"
+        android:src="@drawable/remove_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

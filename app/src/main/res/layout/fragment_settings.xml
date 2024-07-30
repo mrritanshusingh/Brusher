@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFrag">
+
+    <TextView
+        android:id="@+id/frag_settings_storage_tv"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web Storage Details..." />
+
+    <TextView
+        android:id="@+id/frag_settings_cache_tv"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cache Storage Details..." />
+
+    <TextView
+        android:id="@+id/frag_settings_cookie_tv"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cookie Storage Details..." />
+
+</LinearLayout>
