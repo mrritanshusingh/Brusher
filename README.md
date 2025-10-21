@@ -76,5 +76,5 @@ Follow these steps to run the project locally.
 ---
 
 
-**Ritanshu Singh** — your.email@example.com  
-**Project Link:** [https://github.com/your-username/brusher](https://github.com/your-username/brusher)
+**Ritanshu Singh** — mrritanshusingh@gmail.com  
+**Project Link:** [https://github.com/mrritanshusingh/Brusher](https://github.com/mrritanshusingh/Brusher)
